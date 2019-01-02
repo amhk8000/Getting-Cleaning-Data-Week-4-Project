@@ -9,10 +9,9 @@ The data set consists of a file created from subjects Id, activity Id and measur
 &nbsp; &nbsp;  &nbsp; 4 &nbsp; &nbsp;  &nbsp;  Sitting<br>
 &nbsp; &nbsp;  &nbsp; 5 &nbsp; &nbsp;  &nbsp; Standing<br>
 &nbsp; &nbsp;  &nbsp; 6  &nbsp; &nbsp; &nbsp; Laying<br>
-
 The data set contains the following measurements.<br>
-<h2>Subject ID<1h2>
-<h2>Activity Id<h2>
+<h2>Subject ID</h2>
+<h3>Activity Id</h3>
 tBodyAcc-mean()-X<br>
 tBodyAcc-mean()-Y<br>
 tBodyAcc-mean()-Z<br>
