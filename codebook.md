@@ -1,4 +1,4 @@
-CodeBook
+<h1>CodeBook</h1>
 The data set was created as part of the Peer-graded Assignment: Getting and Cleaning Data Course Project from the 'UCI HAR Dataset'
 Data Set
 The data set consists of a file created from subjects Id, activity Id and measurements: There are 30 subjects who provided measurements
