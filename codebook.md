@@ -3,12 +3,12 @@ The data set was created as part of the Peer-graded Assignment: Getting and Clea
 <h1>Data Set</h1>
 The data set consists of a file created from subjects Id, activity Id and measurements: There are 30 subjects who provided measurements for the 6 activity types which are as described below<br>
 ##Activity ID Activity type<br>
-1 Walking<br>
-2 Walking_upstairs<br>
-3 Walking_downstairs<br>
-4 Sitting<br>
-5 Standing<br>
-6 Laying<br>
+&nbsp; &nbsp; 1 &nbsp; &nbsp; Walking<br>
+&nbsp; &nbsp; 2 &nbsp; &nbsp;  Walking_upstairs<br>
+&nbsp; &nbsp; 3 &nbsp; &nbsp;   Walking_downstairs<br>
+&nbsp; &nbsp; 4 &nbsp; &nbsp;   Sitting<br>
+&nbsp; &nbsp; 5 &nbsp; &nbsp;   Standing<br>
+&nbsp; &nbsp; 6  &nbsp; &nbsp;  Laying<br>
 
 The data set contains the following measurements.<br>
 Subject ID
