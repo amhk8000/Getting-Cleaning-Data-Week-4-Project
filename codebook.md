@@ -2,13 +2,13 @@
 The data set was created as part of the Peer-graded Assignment: Getting and Cleaning Data Course Project from the 'UCI HAR Dataset'
 <h1>Data Set</h1>
 The data set consists of a file created from subjects Id, activity Id and measurements: There are 30 subjects who provided measurements for the 6 activity types which are as described below<br>
-##Activity ID Activity type<br>
-&nbsp; &nbsp; 1 &nbsp; &nbsp; Walking<br>
-&nbsp; &nbsp; 2 &nbsp; &nbsp;  Walking_upstairs<br>
-&nbsp; &nbsp; 3 &nbsp; &nbsp;   Walking_downstairs<br>
-&nbsp; &nbsp; 4 &nbsp; &nbsp;   Sitting<br>
-&nbsp; &nbsp; 5 &nbsp; &nbsp;   Standing<br>
-&nbsp; &nbsp; 6  &nbsp; &nbsp;  Laying<br>
+<h2>Activity ID Activity type</h2><br>
+&nbsp; &nbsp;  &nbsp; 1 &nbsp; &nbsp;  &nbsp; Walking<br>
+&nbsp; &nbsp;  &nbsp; 2 &nbsp; &nbsp;  &nbsp; Walking_upstairs<br>
+&nbsp; &nbsp;  &nbsp; 3 &nbsp; &nbsp;  &nbsp; Walking_downstairs<br>
+&nbsp; &nbsp;  &nbsp; 4 &nbsp; &nbsp;  &nbsp;  Sitting<br>
+&nbsp; &nbsp;  &nbsp; 5 &nbsp; &nbsp;  &nbsp; Standing<br>
+&nbsp; &nbsp;  &nbsp; 6  &nbsp; &nbsp; &nbsp; Laying<br>
 
 The data set contains the following measurements.<br>
 Subject ID
