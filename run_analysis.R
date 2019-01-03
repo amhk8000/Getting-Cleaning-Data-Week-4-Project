@@ -25,25 +25,25 @@ subject <- rbind(subject_train,subject_test)
 # bind train and test activity 
 activity <- rbind(activity_train, activity_test)
 # bind train and test data 
-feature <- rbind(XTrain, XTest)
+XData  <- rbind(XTrain, XTest)
 
 #rename data column names to descriptive feature names
-colnames(feature) <- featureName[,2]
+colnames(XData) <- features[,2]
 
 # select those features with mean and std in the columns
-featureselect <-  grep("mean\\(\\)|std\\(\\)",colnames(feature))
+featureselect <-  grep("mean\\(\\)|std\\(\\)",colnames(XData))
 
 # select those columns from data whose mean and std is to be calculated.
-FeatureMean <- feature[, featureselect]
+XDataMean <- XData[, featureselect]
 
 # merge all data with subject as first columns, activity as second 
 # and data for the rest
-AllData <- cbind( subject, activity, FeatureMean)
-dim(AllData)
+XAllData <- cbind( subject, activity, XDataMean)
+dim(XAllData)
 
 
 #creates a tidy data set with the average of each variable for each activity and each subject
-TidySet <- aggregate(. ~subjectId + activityId, AllData, mean)
+TidySet <- aggregate(. ~subjectId + activityId, XAllData, mean)
 
 # order data by subject and activity
 TidySet <- TidySet[order(TidySet$subjectId, TidySet$activityId),]
